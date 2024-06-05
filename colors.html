@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body
+        {
+            background-image: radial-gradient(circle,white,grey,black);
+            font-family: sans-serif;
+        }
+        .form
+        {
+            background-color: black;
+            height: 500px;
+            width: 400px;
+            margin: 0 auto;
+            margin-top: 70px;
+            border-radius: 20px;
+            color: white;
+            padding-top: 100px;
+        }
+        input
+        {
+            margin: 20px auto;
+            margin-left: 80px;
+            text-align:  center;
+            width: 200px;
+            padding: 14px 10px;
+            border-radius: 24px;
+            background: none;
+        }
+        input[type="text"],input[type="password"]
+        {
+            border: 2px solid skyblue;
+            color : lightyellow;
+
+        }
+        input[type = "submit"]
+        {
+            border: 2px solid burlywood;
+            color:white;
+            cursor: pointer;
+        }
+
+        h1
+        {
+            margin: 10px;
+            font-weight: normal;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+       <h1 style="text-align: center;">LOGIN</h1>
+        <form>
+            <input type="text" placeholder="Username" ><br>
+            <input type="password" placeholder="Password" ><br>
+            <input type="submit" value="Login" >
+        </form>
+    </div>
+</body>
+</html>
